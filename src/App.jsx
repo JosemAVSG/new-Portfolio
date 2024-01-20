@@ -20,7 +20,7 @@ function App() {
         <Navigation></Navigation>
         <Routes >
           <Route exact path='/' element={<Home/>} />
-          <Route exact path='/acerca' element={<Acerca/>} />
+          <Route exact path='/proyectos' element={<Acerca/>} />
           <Route exact path='/contacto' element={<Contacto/>} />
           <Route path='*' element={<Error404/>} />
         </Routes>
