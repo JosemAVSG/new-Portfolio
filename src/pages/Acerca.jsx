@@ -23,7 +23,13 @@ const Acerca = () => {
         description="App que permite ver los personajes de rick and morty"
         url="https://rickandmorty-hyjn00rgb-josemavsg.vercel.app/"
           />
+           <Cards img={homeimg.pokemon}
+        title="Pokemon y Mapa de mapbox"
+        description="Integracion de mapa de mapbox y lista de pokemon"
+        url="https://prueba-manuel.vercel.app/"
+          />
           </div> 
+         
        
     </div>
     </Acercaux>

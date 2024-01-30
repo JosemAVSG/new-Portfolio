@@ -13,6 +13,7 @@ import boostrap from './imagenes/boostrap.png'
 import redux from './imagenes/Redux.png'
 import sass from './imagenes/sass.png'
 import developer from './imagenes/developer.jpg'
+import pokemon from './imagenes/pokemon y mapa.jpg'
 export default{
     img2:yo,
     css:css,
@@ -28,5 +29,6 @@ export default{
     boostrap:boostrap,
     redux:redux,
     Sass:sass,
-    dev:developer
+    dev:developer,
+    pokemon:pokemon
 }
