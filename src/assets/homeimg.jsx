@@ -14,21 +14,23 @@ import redux from './imagenes/Redux.png'
 import sass from './imagenes/sass.png'
 import developer from './imagenes/developer.jpg'
 import pokemon from './imagenes/pokemon y mapa.jpg'
+import inventario from './imagenes/inventario.jpg'
 export default{
     img2:yo,
-    css:css,
-    html:html,
-    js:js,
+    css,
+    html,
+    js,
     Node:node,
-    mongo:mongo,
-    mysql:mysql,
-    react:react,
-    weather:weather,
-    bikes:bikes,
+    mongo,
+    mysql,
+    react,
+    weather,
+    bikes,
     rick:rickandmorty,
-    boostrap:boostrap,
-    redux:redux,
+    boostrap,
+    redux,
     Sass:sass,
     dev:developer,
-    pokemon:pokemon
+    pokemon,
+    inventario
 }
