@@ -44,7 +44,7 @@ const Home = () => {
                 <span>🙋‍♂️🙋‍♂️🙋‍♂️ Hola !!</span> Yo soy Jose Miguel González Guzmán
               </h1>
               <h2>
-                <span ref={el}  ></span>{" "}
+                <span ref={el}></span>{" "}
               </h2>
               <p>
                 {" "}
@@ -220,9 +220,10 @@ const Home = () => {
             <p class="about__description">
               Soy Entusiasta, estoy super motivado a aprender cada día más,
               apasionado por este hermoso mundo de las IT, siempre dispuesto a
-              aprender nuevas tecnologias. Hace años atrás me dedique al diseño
-              gráfico, ahora quiero enfocar toda mi energía en convertirme en
-              Software Developer que es lo que realmente me apasiona.
+              aprender nuevas tecnologias. Hace años atrás me dedique tecnico en
+              reparacione de equipos electronicos ahora quiero enfocar toda mi
+              energía en convertirme en Web Developer que es lo que realmente me
+              apasiona.
             </p>
             <p>
               Siempre dispuesto al trabajo en equipo, full autodidacta y en
@@ -234,7 +235,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
     </div>
   );
 };
