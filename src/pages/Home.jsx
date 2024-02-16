@@ -120,7 +120,7 @@ const Home = () => {
 
       <section className="section1">
         <h1
-          style={{ display: "flex", justifyContent: "center", color: "white" }}
+          style={{ display: "flex", justifyContent: "center", color: "white", paddingTop:"20px" }}
         >
           Hablidades.
         </h1>
