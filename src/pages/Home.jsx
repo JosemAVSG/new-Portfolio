@@ -230,7 +230,7 @@ const Home = () => {
             </p>
           </div>
           <div className="image">
-            <img src={homeimg.dev}></img>
+            <img alt="Image not found" src={homeimg.dev}></img>
           </div>
         </div>
       </section>
