@@ -79,7 +79,7 @@ const NavLinks = styled.div`
   position: relative;
   color:#fff;
   padding: 0 10px;
- font-size: 30px;
+ font-size: 20px;
 }
   .navi:after {
   content: "";
