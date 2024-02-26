@@ -20,6 +20,7 @@ const Acerca = () => {
             img={homeimg.bikes}
             title="Search bikes"
             description="App que permite buscar bicicletas robadas!"
+            url="https://coding-challenge-frontend-react-6dcyxqexh-josemavsg.vercel.app/"
           />
           <Cards
             img={homeimg.rick}
