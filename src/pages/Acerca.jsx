@@ -40,6 +40,12 @@ const Acerca = () => {
             description="Proyecto Full Stack, Back: express, Front: React"
             url="https://sistema-de-inventario-client-production.up.railway.app/"
           />
+             <Cards
+            img={homeimg.p2henry}
+            title="Movie APP"
+            description="Proyecto Full Stack, Bootcamp Soy Henry #2"
+            url="https://peppy-mooncake-dcfe44.netlify.app/"
+          />
         </div>
       </div>
     </Acercaux>

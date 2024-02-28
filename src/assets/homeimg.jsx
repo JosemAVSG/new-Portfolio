@@ -15,6 +15,7 @@ import sass from './imagenes/sass.png'
 import developer from './imagenes/developer.jpg'
 import pokemon from './imagenes/pokemon y mapa.jpg'
 import inventario from './imagenes/inventario.jpg'
+import p2henry from './imagenes/Proyecto henry 2.webp'
 export default{
     img2:yo,
     css,
@@ -32,5 +33,6 @@ export default{
     Sass:sass,
     dev:developer,
     pokemon,
-    inventario
+    inventario,
+    p2henry
 }
