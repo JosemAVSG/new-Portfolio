@@ -16,6 +16,7 @@ const Acerca = () => {
             description="App que permite ve el clima de tu ciudad!"
             url="https://weather-p40ousxb7-josemavsg.vercel.app"
             git="https://github.com/JosemAVSG/weather-app"
+            tech={["React","JavaScript", "HTML","CSS"]}
           />
           <Cards
             img={homeimg.bikes}
@@ -23,6 +24,7 @@ const Acerca = () => {
             description="App que permite buscar bicicletas robadas!"
             url="https://coding-challenge-frontend-react-6dcyxqexh-josemavsg.vercel.app/"
             git="https://github.com/JosemAVSG/coding-challenge-frontend-react"
+            tech={["React", "JavaScript", "HTML","CSS"]}
           />
           <Cards
             img={homeimg.rick}
@@ -30,6 +32,7 @@ const Acerca = () => {
             description="App que permite ver los personajes de rick and morty"
             url="https://rickandmorty-hyjn00rgb-josemavsg.vercel.app/"
             git="https://github.com/JosemAVSG/rickandmorty"
+            tech={["React", "StyleComponents", "HTML","CSS"]}
           />
           <Cards
             img={homeimg.pokemon}
@@ -37,6 +40,7 @@ const Acerca = () => {
             description="Integracion de mapa de mapbox y lista de pokemon"
             url="https://prueba-manuel.vercel.app/"
             git="https://github.com/JosemAVSG/Prueba_manuel"
+            tech={["React","Sass", "HTML","CSS"]}
           />
           <Cards
             img={homeimg.inventario}
@@ -44,6 +48,7 @@ const Acerca = () => {
             description="Proyecto Full Stack, Back: express, Front: React"
             url="https://sistema-de-inventario-client-production.up.railway.app/"
             git="https://github.com/JosemAVSG/Sistema-de-inventario-Client"
+            tech={["React", "Tailwind", "HTML","CSS","Mongo"]}
           />
              <Cards
             img={homeimg.p2henry}
@@ -51,6 +56,7 @@ const Acerca = () => {
             description="Proyecto Full Stack, Bootcamp Soy Henry #2"
             url="https://peppy-mooncake-dcfe44.netlify.app/"
             git="https://github.com/JosemAVSG/P2-henrybootcamp"
+            tech={["React","Boostrap", "HTML","CSS","Mongo"]}
           />
         </div>
       </div>

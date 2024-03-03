@@ -1,16 +1,37 @@
 import React from "react";
 import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faWordpress } from "@fortawesome/free-brands-svg-icons";
-import { faGlobe } from "@fortawesome/free-solid-svg-icons";
+import { faGithub,faHtml5,faCss3Alt,faReact, faJs, faBootstrap, faSass, faNodeJs } from "@fortawesome/free-brands-svg-icons";
+import { faBorderStyle, faDatabase, faGlobe,faPalette } from "@fortawesome/free-solid-svg-icons";
 const Cards = (props) => {
+  
   return (
     <StyledCard>
-      <div className="card">
+         
+             <div className="card">
         <div className="card-body">
           <img src={props.img}></img>
           <h2 className="card-title">{props.title}</h2>
           <p className="card-description">{props.description}</p>
+        </div>
+        <div>
+          <ul>
+          {props.tech && props.tech.map((techItem, index) => (
+          <li key={index}>
+            {techItem === "React" && <FontAwesomeIcon className="icon" icon={faReact} />} 
+            {techItem === "HTML" && <FontAwesomeIcon className="icon" icon={faHtml5} />} 
+            {techItem === "CSS" && <FontAwesomeIcon className="icon" icon={faCss3Alt} />} 
+            {techItem === "Tailwind" && <FontAwesomeIcon className="icon"  icon={faPalette} />}
+            {techItem === "JavaScript" && <FontAwesomeIcon className="icon" icon={faJs} />}
+            {techItem === "StyleComponents" && <FontAwesomeIcon  className="icon" icon={faPalette} />}
+            {techItem === "Boostrap" && <FontAwesomeIcon className="icon" icon={faBootstrap} />}
+            {techItem === "Sass" && <FontAwesomeIcon className="icon" icon={faSass} />}
+            {techItem === "Node" && <FontAwesomeIcon className="icon" icon={faNodeJs} />}
+            {techItem === "Mongo" && <FontAwesomeIcon className="icon" icon={faDatabase} />}
+            {techItem }
+          </li>
+        ))}
+          </ul>
         </div>
         <div className="buttons">
           <a
@@ -29,12 +50,15 @@ const Cards = (props) => {
             href={props.git}
             rel="noopener"
             target="_blank"
+            
           >
             Codigo
             <FontAwesomeIcon icon={faGithub} className="cardgit" />
           </a>
         </div>
       </div>
+        
+     
     </StyledCard>
   );
 };
@@ -72,6 +96,7 @@ const StyledCard = styled.div`
     justify-content: space-evenly;
     cursor: pointer;
     transition: transform 200ms ease-in;
+    margin-bottom: 30px;
   }
   .card:hover {
     transform: scale(1.02);
@@ -84,9 +109,12 @@ const StyledCard = styled.div`
 
   .card-title {
     padding: 1rem;
+    color: #2e5a94;
+    font-size: 25px;
   }
 
   .card-description {
+    font-size: 16px;
     padding: 0 1rem;
   }
 
@@ -102,7 +130,23 @@ const StyledCard = styled.div`
     border-radius: 0.2rem;
     transition: 200ms ease-in, color 200ms ease-in;
   }
-
+  .card ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 20px 20px 20px;
+    gap: 10px;
+    font-size: 20px;
+  }
+  .card ul>li{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+  }
+  .icon{
+    display: flex;
+    justify-content: center;
+  }
   .buttons {
     display: flex;
     justify-content: space-evenly;
