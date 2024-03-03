@@ -25,7 +25,7 @@ function Card() {
 
   return (
     <section className="card_section">
-      <div id="card" className={`card ${isVisible ? "visible" : ""}`}>
+      <div id="card" className={`cards ${isVisible ? "visible" : ""}`}>
         <div className="icon">
           <FontAwesomeIcon fontSize={"70px"} icon={faCode} />
         </div>
@@ -40,7 +40,7 @@ function Card() {
           </p>
         </div>
       </div>
-      <div id="card" className={`card ${isVisible ? "visible" : ""}`}>
+      <div id="card" className={`cards ${isVisible ? "visible" : ""}`}>
         <div className="icon">
           <FontAwesomeIcon fontSize={"70px"} icon={faGraduationCap} />
         </div>
@@ -57,7 +57,7 @@ function Card() {
           </p>
         </div>
       </div>
-      <div id="card" className={`card ${isVisible ? "visible" : ""}`}>
+      <div id="card" className={`cards ${isVisible ? "visible" : ""}`}>
         <div className="icon">
           <FontAwesomeIcon fontSize={"70px"} icon={faUser} />
         </div>
