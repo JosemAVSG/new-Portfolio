@@ -10,6 +10,7 @@ import {
   faCodepen,
 } from "@fortawesome/free-brands-svg-icons";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import Card from "../components/Card";
 const Home = () => {
   const el = useRef(null);
 
@@ -117,10 +118,15 @@ const Home = () => {
           </div>
         </div>
       </div>
-
+      <Card></Card>
       <section className="section1">
         <h1
-          style={{ display: "flex", justifyContent: "center", color: "white", paddingTop:"20px" }}
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            color: "white",
+            paddingTop: "20px",
+          }}
         >
           Hablidades.
         </h1>
