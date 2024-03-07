@@ -4,12 +4,7 @@
 /* Center align the text within the three columns below the carousel */
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-.wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
+
 .tech {
   margin: 50px;
 }

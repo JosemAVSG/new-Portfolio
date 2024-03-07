@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 const Navigation = () => {
@@ -9,6 +9,12 @@ const Navigation = () => {
     setIsOpen(!isOpen);
   };
 
+  const scrollToContact = () => {
+    setTimeout(()=>{
+
+      document.getElementById("contacto").scrollIntoView({ behavior: "smooth" });
+    },)
+  };
   return (
     <NavContainer>
       <Logo>
@@ -21,9 +27,9 @@ const Navigation = () => {
         <NavLink to="/proyectos"  className="navi" activeClassName="active">
           Proyectos
         </NavLink>
-        <NavLink to="/contacto"  className="navi" activeClassName="active">
-          Contacto
-        </NavLink>
+        <NavLink to="/#contacto" className="navi" activeClassName="active" onClick={scrollToContact}>
+        Contacto
+      </NavLink>
       </NavLinks>
       <BurgerButton onClick={toggleMenu}>
         <div className={`bar ${isOpen ? "open" : ""}`}></div>
@@ -40,7 +46,6 @@ const NavContainer = styled.nav`
   background-color: rgb(23, 64, 102);
   justify-content: space-between;
   align-items: center;
-  position: fixed;
   width: 100%;
   z-index: 1000;
 

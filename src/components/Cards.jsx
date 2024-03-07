@@ -88,7 +88,7 @@ const StyledCard = styled.div`
   .card {
     overflow: hidden;
     width: 400px;
-    min-height: 430px;
+    height: 460px;
     margin: 10px;
     box-shadow: 0 2px 20px gray;
     border-radius: 0.2rem;

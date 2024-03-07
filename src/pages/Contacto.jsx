@@ -62,7 +62,6 @@ const ContactForm = () => {
 
   return (
     <div className="contacto">
-      <Btnwhatsapp/>
       <Formulario>  
       <h2>Formulario de Contacto</h2>
       <form onSubmit={handleSubmit}>

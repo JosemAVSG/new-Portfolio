@@ -11,6 +11,30 @@ const Acerca = () => {
         <Btnwhatsapp />
         <div className="wrapper">
           <Cards
+            img={homeimg.pokemon}
+            title="Pokemon y Mapa de mapbox"
+            description="Integracion de mapa de mapbox y lista de pokemon"
+            url="https://prueba-manuel.vercel.app/"
+            git="https://github.com/JosemAVSG/Prueba_manuel"
+            tech={["React","Sass", "HTML","CSS"]}
+          />
+          <Cards
+            img={homeimg.inventario}
+            title="Sistema de inventario"
+            description="Proyecto Full Stack, Back: express, Front: React"
+            url="https://sistema-de-inventario-client-production.up.railway.app/"
+            git="https://github.com/JosemAVSG/Sistema-de-inventario-Client"
+            tech={["React", "Tailwind", "HTML","CSS","Mongo"]}
+          />
+             <Cards
+            img={homeimg.p2henry}
+            title="Movie APP"
+            description="Proyecto Full Stack, Bootcamp Soy Henry #2"
+            url="https://peppy-mooncake-dcfe44.netlify.app/"
+            git="https://github.com/JosemAVSG/P2-henrybootcamp"
+            tech={["Boostrap", "HTML","CSS","JavaScript","Mongo"]}
+          />
+            <Cards
             img={homeimg.weather}
             title="Weather-APP"
             description="App que permite ve el clima de tu ciudad!"
@@ -34,30 +58,6 @@ const Acerca = () => {
             git="https://github.com/JosemAVSG/rickandmorty"
             tech={["React", "StyleComponents", "HTML","CSS"]}
           />
-          <Cards
-            img={homeimg.pokemon}
-            title="Pokemon y Mapa de mapbox"
-            description="Integracion de mapa de mapbox y lista de pokemon"
-            url="https://prueba-manuel.vercel.app/"
-            git="https://github.com/JosemAVSG/Prueba_manuel"
-            tech={["React","Sass", "HTML","CSS"]}
-          />
-          <Cards
-            img={homeimg.inventario}
-            title="Sistema de inventario"
-            description="Proyecto Full Stack, Back: express, Front: React"
-            url="https://sistema-de-inventario-client-production.up.railway.app/"
-            git="https://github.com/JosemAVSG/Sistema-de-inventario-Client"
-            tech={["React", "Tailwind", "HTML","CSS","Mongo"]}
-          />
-             <Cards
-            img={homeimg.p2henry}
-            title="Movie APP"
-            description="Proyecto Full Stack, Bootcamp Soy Henry #2"
-            url="https://peppy-mooncake-dcfe44.netlify.app/"
-            git="https://github.com/JosemAVSG/P2-henrybootcamp"
-            tech={["React","Boostrap", "HTML","CSS","Mongo"]}
-          />
         </div>
       </div>
     </Acercaux>
@@ -65,8 +65,23 @@ const Acerca = () => {
 };
 
 const Acercaux = styled.div`
-  .wrapper {
-    margin-top: 100px;
+  .wrapper { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
+
+  @media screen and (max-width: 1024px) {
+
+  .wrapper{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+@media screen and (max-width: 650px) {
+
+  .wrapper{
+    grid-template-columns: repeat(1,1fr);
+  }
+}
 `;
 export default Acerca;

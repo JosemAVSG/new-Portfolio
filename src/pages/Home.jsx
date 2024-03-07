@@ -11,6 +11,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import Card from "../components/Card";
+import ContactForm from "./Contacto";
 const Home = () => {
   const el = useRef(null);
 
@@ -240,6 +241,9 @@ const Home = () => {
             <img alt="Image not found" src={homeimg.dev}></img>
           </div>
         </div>
+      </section>
+      <section id="contacto">
+        <ContactForm></ContactForm>
       </section>
     </div>
   );

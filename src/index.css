@@ -43,22 +43,24 @@
 body {
   display: flex;
   flex-direction: column;
-  position: relative;
+
   min-height: 100vh;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .acerca {
   display: flex;
-  flex-direction: column;
-  position: relative;
+  margin: 20px;
+  justify-content: center;
   min-height: 100vh;
 }
 .contacto {
   display: flex;
+  padding: 50px;
   flex-direction: column;
   position: relative;
-  min-height: 100vh;
+  color: white;
+  background: #1d4d8b;
 }
 
 .bi {
@@ -203,11 +205,14 @@ body {
     grid-template-columns: repeat(2, 1fr);
     padding: 2rem 50px;
   }
+
 }
 @media screen and (max-width: 650px) {
   .container-skill {
     grid-template-columns: 1fr;
+    
   }
+
 }
 
 .skill-title h3 {
