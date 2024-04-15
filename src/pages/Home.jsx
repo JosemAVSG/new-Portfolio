@@ -225,12 +225,12 @@ const Home = () => {
           <div className="text">
             <h2 class="about-subtitle">Jose Miguel</h2>
             <p class="about__description">
-              Soy Entusiasta, estoy super motivado a aprender cada día más,
-              apasionado por este hermoso mundo de las IT, siempre dispuesto a
-              aprender nuevas tecnologias. Hace años atrás me dedique tecnico en
-              reparacione de equipos electronicos ahora quiero enfocar toda mi
-              energía en convertirme en Web Developer que es lo que realmente me
-              apasiona.
+              Mi nombre es Jose Miguel, pero me dicem Miguel. Tengo 28 años y
+              actualmente vivo en colombia pero soy de Venezuela actualmente.
+              trabajo como Tecnico en reparacion de computadoras. <br /> <br />
+              Me considero una persona responsable, amable y
+              comprometida. <br /> <br />
+              
             </p>
             <p>
               Siempre dispuesto al trabajo en equipo, full autodidacta y en
