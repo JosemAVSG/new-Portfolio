@@ -2,7 +2,6 @@ import { useForm } from "../useForm";
 import Loader from '../components/Loader';
 import Message from "../components/Message";
 import styled from 'styled-components'
-import { Btnwhatsapp } from "../components/Btnwhatsapp";
 
 
 const initialForm = {
@@ -158,7 +157,13 @@ const Formulario = styled.form`
     color: white;
     border:none;
   }
-
+  @media screen {
+    @media (max-width: 768px) {
+      form{
+        width:100%;
+      }
+    }
+  } 
 `
 
 export default ContactForm;
