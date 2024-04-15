@@ -11,8 +11,7 @@ const Navigation = () => {
 
   const scrollToContact = () => {
     setTimeout(()=>{
-
-      document.getElementById("contacto").scrollIntoView({ behavior: "smooth" });
+     document.getElementById("contacto").scrollIntoView({ behavior: "smooth" });
     },)
   };
   return (
@@ -75,6 +74,7 @@ const NavLinks = styled.div`
     height: calc(100vh - 50px);
     background-color: rgb(23, 64, 102);
     transition: left 0.3s ease-in-out;
+    z-index: 999;
   }
 
   .navi{
