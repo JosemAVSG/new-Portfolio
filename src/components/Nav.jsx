@@ -149,7 +149,7 @@ const BurgerButton = styled.div`
     }
 
     &:nth-child(3) {
-      transform: rotate(-45deg) translate(-5px, -6px);
+      transform: rotate(-45deg) translate(6px, -16px);
     }
   }
 `;
