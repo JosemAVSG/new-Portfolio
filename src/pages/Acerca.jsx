@@ -22,7 +22,7 @@ const Acerca = () => {
             img={homeimg.inventario}
             title="Sistema de inventario"
             description="Proyecto Full Stack, Back: express, Front: React"
-            url="https://sistema-de-inventario-client-8pxwmxu4e-josemavsg.vercel.app/"
+            url="https://sistema-de-inventario-client.vercel.app/"
             git="https://github.com/JosemAVSG/Sistema-de-inventario-Client"
             tech={["React", "Tailwind", "HTML","CSS","Mongo"]}
           />
