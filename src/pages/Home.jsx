@@ -225,12 +225,14 @@ const Home = () => {
           <div className="text">
             <h2 class="about-subtitle">Jose Miguel</h2>
             <p class="about__description">
-              Mi nombre es Jose Miguel, pero me dicem Miguel. Tengo 28 años y
-              actualmente vivo en colombia pero soy de Venezuela actualmente.
-              trabajo como Tecnico en reparacion de computadoras. <br /> <br />
-              Me considero una persona responsable, amable y
-              comprometida. <br /> <br />
-              
+              Mi nombre es Jose Miguel, pero me dicem Miguel. Tengo 28 años vivo
+              en colombia pero soy de Venezuela, actualmente trabajo como
+              Tecnico en reparacion de computadoras y dispositivos moviles.{" "}
+              <br /> <br />
+              Me considero una persona responsable, amable y comprometida.{" "}
+              <br />
+              Me gusta tocar la guitarra y escuchar música de vez en cuando
+              y jugar videojuegos como LOL , CS:GO y World of Warcraft. <br />
             </p>
             <p>
               Siempre dispuesto al trabajo en equipo, full autodidacta y en
