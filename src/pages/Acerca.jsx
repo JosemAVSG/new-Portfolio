@@ -11,7 +11,7 @@ const Acerca = () => {
         <Btnwhatsapp />
         <div className="wrapper">
           <Cards
-            img={homeimg.pokemon}
+            img="https://i.postimg.cc/FFJMcX94/image.png"
             title="Pokemon y Mapa de mapbox"
             description="Integracion de mapa de mapbox y lista de pokemon"
             url="https://prueba-manuel.vercel.app/"
