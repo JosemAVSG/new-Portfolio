@@ -50,6 +50,8 @@ const NavContainer = styled.nav`
 
   @media screen and (max-width: 768px) {
     padding: 10px 20px;
+    position: sticky;
+    top: 0;
   }
 `;
 
@@ -67,13 +69,13 @@ const NavLinks = styled.div`
   @media screen and (max-width: 768px) {
     flex-direction: column;
     position: fixed;
-    top: 50px;
-    left: ${(props) => (props.isOpen ? "0" : "-100%")};
-    width: 100%;
-    justify-content: center;
-    height: calc(100vh - 50px);
+    top:  50px;
+    right: ${(props) => (props.isOpen ? "0" : "-100%")};
+    width: 20%;
+    border-radius: 5px;
+    padding: 20px;
     background-color: rgb(23, 64, 102);
-    transition: left 0.3s ease-in-out;
+    transition: right 0.3s ease-in-out;
     z-index: 999;
   }
 
