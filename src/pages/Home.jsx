@@ -216,6 +216,22 @@ const Home = () => {
               <h3>Sass</h3>
             </div>
           </div>
+          <div className="skill-box">
+            <div className="skill-title">
+              <div className="img">
+                <img className="skill-icon" src={homeimg.typescript} alt="typescript" />
+              </div>
+              <h3>Typescript</h3>
+            </div>
+          </div>
+          <div className="skill-box">
+            <div className="skill-title">
+              <div className="img">
+                <img className="skill-icon" src={homeimg.postgres} alt="postgres" />
+              </div>
+              <h3>Postgress</h3>
+            </div>
+          </div>
         </div>
       </section>
 

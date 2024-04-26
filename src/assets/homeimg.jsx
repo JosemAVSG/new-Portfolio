@@ -16,11 +16,15 @@ import developer from './imagenes/developer.jpg'
 import pokemon from './imagenes/pokemon y mapa.jpg'
 import inventario from './imagenes/inventario.jpg'
 import p2henry from './imagenes/Proyecto henry 2.webp'
+import typescript from './imagenes/typeScript.png'
+import postgres from './imagenes/postgres.png'
 export default{
     img2:yo,
     css,
     html,
     js,
+    typescript,
+    postgres,
     Node:node,
     mongo,
     mysql,
