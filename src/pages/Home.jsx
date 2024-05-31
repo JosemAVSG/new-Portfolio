@@ -49,13 +49,10 @@ const Home = () => {
                 <span ref={el}></span>{" "}
               </h2>
               <p>
-                {" "}
-                Mi enfoque se centra en la construcción de experiencias web
-                impactantes y amigables. Disfruto del desafío de transformar
-                ideas creativas en código funcional, asegurándome de que cada
-                proyecto no solo cumpla con los requisitos funcionales, sino que
-                también ofrezca una experiencia visualmente atractiva para los
-                usuarios.{" "}
+                ¡Hola! Un gusto y bienvenido a mi portafolio. Espero que encuentres
+                algo de interés y que pueda servirte de ayuda. Te invito a explorar
+                este espacio y encontrar información útil acerca de mi carrera y
+                experiencia como desarrollador web. ¡Que tengas un buen día!   
               </p>
               <div className="cv">
                 <a target="_blank" rel="noopener noreferrer" href={hojadevida}>
@@ -241,7 +238,7 @@ const Home = () => {
           <div className="text">
             <h2 class="about-subtitle">Jose Miguel</h2>
             <p class="about__description">
-              Mi nombre es Jose Miguel, pero me dicem Miguel. Tengo 28 años vivo
+              Mi nombre es Jose Miguel, pero me dicen Miguel. Tengo 28 años vivo
               en colombia pero soy de Venezuela, actualmente trabajo como
               Tecnico en reparacion de computadoras y dispositivos moviles.{" "}
               <br /> <br />
