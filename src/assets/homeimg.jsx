@@ -1,4 +1,3 @@
-import yo from './imagenes/20200529_204110.jpg'
 import css from './imagenes/CSS3.png'
 import js from './imagenes/js.png'
 import html from './imagenes/html.png'
@@ -18,8 +17,9 @@ import inventario from './imagenes/inventario.jpg'
 import p2henry from './imagenes/Proyecto henry 2.webp'
 import typescript from './imagenes/typescript.png'
 import postgres from './imagenes/postgres.png'
+import perfil from './imagenes/perfil.jpg'
 export default{
-    img2:yo,
+    perfil,
     css,
     html,
     js,

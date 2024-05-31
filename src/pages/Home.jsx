@@ -111,7 +111,7 @@ const Home = () => {
 
             <div className="hero-img">
               <div className="circulo"></div>
-              <img src={homeimg.img2} alt="Yo" focusable="false" />
+              <img src={homeimg.perfil} alt="Yo" focusable="false" />
             </div>
           </div>
         </div>
