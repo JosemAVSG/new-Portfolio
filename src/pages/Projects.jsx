@@ -4,7 +4,7 @@ import { Btnwhatsapp } from "../components/Btnwhatsapp";
 import styled from "styled-components";
 import homeimg from "../assets/homeimg";
 
-const Acerca = () => {
+const Projects = () => {
   return (
     <Acercaux>
       <div className="acerca">
@@ -84,4 +84,4 @@ const Acercaux = styled.div`
   }
 }
 `;
-export default Acerca;
+export default Projects;

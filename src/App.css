@@ -6,6 +6,17 @@
   margin: 50px;
 }
 
+.proyectos {
+  padding: 30px;
+}
+.proyectos h1 {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: #0f0f0f; 
+}
 .acerca h2 {
   display: flex;
   justify-content: center;
@@ -13,6 +24,8 @@
   font-family: "Roboto", sans-serif;
   text-align: center;
 }
+
+
 
 .logof ul {
   display: flex;
@@ -189,8 +202,10 @@ ul {
 .card_section{
   display: flex;
   justify-content: center;
-  margin-bottom: 100px;
+  background: #1d4d8b;
+  margin-bottom: 20px;
 }
+
 .cards {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
@@ -201,6 +216,7 @@ ul {
   opacity: 0;
   transform: translateX(-100px);
   transition: opacity 0.5s ease-in-out, transform 1.5s ease-in-out;
+  background: white;
 }
 
 .cards h2 {

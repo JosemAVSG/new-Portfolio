@@ -48,12 +48,7 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.acerca {
-  display: flex;
-  margin: 20px;
-  justify-content: center;
-  min-height: 100vh;
-}
+
 .contacto {
   display: flex;
   padding: 50px;
@@ -255,9 +250,7 @@ body {
 .section1 {
   background: #1d4d8b;
 }
-.section1 h1 {
-  text-decoration: underline;
-}
+
 .section1 h3 {
   color: white;
 }

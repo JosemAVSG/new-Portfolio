@@ -118,7 +118,6 @@ const ContactForm = () => {
 
 const Formulario = styled.form`
 
-
   margin-top:auto;
   margin-bottom:auto;
 

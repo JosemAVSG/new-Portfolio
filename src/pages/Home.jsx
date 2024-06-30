@@ -12,6 +12,7 @@ import {
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import Card from "../components/Card";
 import ContactForm from "./Contacto";
+import  Projects  from './Projects'
 const Home = () => {
   const el = useRef(null);
 
@@ -116,7 +117,16 @@ const Home = () => {
           </div>
         </div>
       </div>
+      
+
       <Card></Card>
+    
+
+      <section className="proyectos">
+        <h1>Proyectos</h1>
+        <Projects></Projects>
+      </section>
+
       <section className="section1">
         <h1
           style={{
@@ -126,7 +136,7 @@ const Home = () => {
             paddingTop: "20px",
           }}
         >
-          Hablidades.
+          Hablidades
         </h1>
         <div className="container-skill">
           <div className="skill-box">
