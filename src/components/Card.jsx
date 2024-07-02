@@ -33,7 +33,8 @@ function Card() {
           <h2>Bootcamp Soy Henry</h2>
           <p>
             Durante el bootcamp de Soy Henry, adquirí habilidades en desarrollo
-            web full-stack, incluyendo HTML, CSS, JavaScript, React.js, Node.js
+            web full-stack, incluyendo HTML, CSS, JavaScript, React.js Nextjs, Node.js,
+            Express.js, Nestjs,Typeorm, PostgreSQL, MongoDB, Tailwind, Bootstrap,
             y bases de datos SQL y NoSQL. Además, desarrollé proyectos prácticos
             que me permitieron aplicar estos conocimientos en situaciones del
             mundo real.
