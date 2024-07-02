@@ -1,7 +1,7 @@
 import { useForm } from "../useForm";
 import Loader from '../components/Loader';
 import Message from "../components/Message";
-import styled from 'styled-components'
+import stylesContainer from '../styles/contacto.module.scss'
 
 
 const initialForm = {
@@ -61,7 +61,7 @@ const ContactForm = () => {
 
   return (
     <div className="contacto">
-      <Formulario>  
+      <div className={stylesContainer.container}>
       <h2>Formulario de Contacto</h2>
       <form onSubmit={handleSubmit}>
         <input
@@ -111,57 +111,57 @@ const ContactForm = () => {
       {response && (
         <Message msg="Los datos han sido enviados" bgColor="#198754" />
       )}
-      </Formulario>
+      </div>
     </div>
   );
 };
 
-const Formulario = styled.form`
+// const Formulario = styled.form`
 
-  margin-top:auto;
-  margin-bottom:auto;
+//   margin-top:auto;
+//   margin-bottom:auto;
 
-  h2{
-    display:flex;
-    justify-content:center;
-  }
-  form{
-    display:flex;
-    flex-direction:column;
-    padding:30px;
-    border-radius:10px;
-    background-color:rgb(25,43,59);
-    width:60%;
-    margin:0 auto;
-    border:1px solid gray;
-    box-shadow: 0 0 8px gray;
+//   h2{
+//     display:flex;
+//     justify-content:center;
+//   }
+//   form{
+//     display:flex;
+//     flex-direction:column;
+//     padding:30px;
+//     border-radius:10px;
+//     background-color:rgb(25,43,59);
+//     width:60%;
+//     margin:0 auto;
+//     border:1px solid gray;
+//     box-shadow: 0 0 8px gray;
     
-  }
-  input{
-    margin-bottom:10px;
-    padding:5px;
-    border-radius:5px;
-    border:none;
-  }
-  textarea{
-    padding:5px;
-    margin-bottom:10px;
-    border-radius:5px;
-    border:none;
-  }
+//   }
+//   input{
+//     margin-bottom:10px;
+//     padding:5px;
+//     border-radius:5px;
+//     border:none;
+//   }
+//   textarea{
+//     padding:5px;
+//     margin-bottom:10px;
+//     border-radius:5px;
+//     border:none;
+//   }
 
-  .button{
-    background-color: #146ac6;
-    color: white;
-    border:none;
-  }
-  @media screen {
-    @media (max-width: 768px) {
-      form{
-        width:100%;
-      }
-    }
-  } 
-`
+//   .button{
+//     background-color: #146ac6;
+//     color: white;
+//     border:none;
+//   }
+//   @media screen {
+//     @media (max-width: 768px) {
+//       form{
+//         width:100%;
+//       }
+//     }
+//   } 
+// `
 
 export default ContactForm;
