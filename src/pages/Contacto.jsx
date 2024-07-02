@@ -122,7 +122,6 @@ const Formulario = styled.form`
   margin-bottom:auto;
 
   h2{
-      
     display:flex;
     justify-content:center;
   }
